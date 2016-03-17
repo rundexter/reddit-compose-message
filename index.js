@@ -6,8 +6,11 @@ module.exports = {
      * @param {AppData} dexter Container for all data used in this workflow.
      */
     run: function(step, dexter) {
-        var results = { foo: 'bar' };
-        //Call this.complete with the module's output.  If there's an error, call this.fail(message) instead.
-        this.complete(results);
+        var provider       = dexter.provider( 'reddit' );
+        var access_token   = provider.credentials( 'access_token' );
+
+        this.log( 'token = ' + access_token );
+
+        return this.complete( { foo: 1 } );
     }
 };
