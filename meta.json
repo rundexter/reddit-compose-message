@@ -18,8 +18,8 @@
     ],
     "outputs": [
         {
-            "id": "from",
-            "title":"From"
+            "id": "result",
+            "title":"Result"
         }
     ],
     "providers": [
