@@ -1,7 +1,7 @@
 {
     "name": "reddit-compose-message",
     "version": "0.0.1",
-    "description": "",
+    "description": "Send a private message to a Reddit user",
     "main": "index.js",
     "author": "Mike Friedman",
     "license": "ISC",
